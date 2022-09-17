@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(238, 0, 0);
+    color: white;
+    padding: 36px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+header .container {
+    align-items: center;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+header nav li {
+    margin-left: 16px;
+    font-size: 28px;
+}
+
+header .container h1,
+header .container a {
+    font-family: 'Passion One', cursive;
+    font-weight: normal;
+}
+
+header .container h1 {
+    font-size: 48px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.marcas img {
+    height: 36px;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+.marcas li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.sneaker-img {
+    margin-right: 24px;
+}   
+
+section {
+    padding: 24px 0;
+}
+
+.container h2 {
+    color: rgb(238, 0, 0);
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-family: 'Passion One', cursive;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.container p {
+    margin-bottom: 8px;
+}
+
+#contact .container {
+    display: block;;
+}
+
+#contact form input,
+#contact form button,
+#contact form textarea {
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+#contact form textarea {
+    resize: none;
+    height: 180px;
+}
+
+
+
+#contact li img {
+    height: 24px;
+}
+
+#contact li {
+    display: inline;
+}
+
+#contact li a {
+    text-decoration: none;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-methods h3 {
+    margin-bottom: 16px;
+}
+
+#contact h2 {
+    margin-bottom: 36px;
+}
+
+.contact-methods h3{
+    font-family: 'Passion One', cursive;
+    color:rgb(238, 0, 0);
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.contact-methods form button {
+    background-color: rgb(238, 0, 0);
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-weight: normal;
+    font-size: 22px;]
+}
+
+.contact-methods form button {
+    border: none;
+    cursor: pointer;
+}
+
+.contact-methods form button:hover {
+    background-color:rgb(243, 39, 39) ;
+}
+
+.contact-methods input:focus,
+.contact-methods textarea:focus {
+    outline-color:rgb(238, 0, 0) ;
+}
+
+.contact-methods ul img {
+    margin-right: 8px;
+}
+
+footer {
+    background-color: rgb(238, 0, 0);
+    color: white;
+    padding: 16px 0;
+}
+
+
+
+
+
+
+
+
