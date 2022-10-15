@@ -30,6 +30,7 @@ form input {
     border: none;
     border-bottom: 2px solid #000;
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .formulario label {
@@ -46,6 +47,7 @@ form button {
     background-color: green;
     justify-content: space-between;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 #button-cancelar {
