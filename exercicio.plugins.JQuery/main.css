@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ccc;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 18px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form input {
+    padding: 2px;
+    margin-bottom: 12px;
+    width: 500px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: #fff;
+}
+
+.formulario label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+}
+
+form button {
+    border: none;
+    width: 510px;
+    margin-top: 16px;
+    font-size: 24px;
+    background-color: green;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#button-cancelar {
+    background-color: rgba(255, 0, 0, 0.9);
+}
+
+
