@@ -8,6 +8,10 @@ $(document).ready(function(){
         placeholder:'00000-000'
     });
 
+    $('#telefone').mask('(00)00000-0000',{
+        placeholder:'(00)00000-0000'
+    })
+
     $('form').validate({
         rules:{
             nome: {
