@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-link {
+    text-align: center;
+    background-color: purple;
+    color: #fff;
+}
+
+.nav-item {
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-nav .nav-item .active {
+    color: #fff;
+}
+
+header {
+    background-color: purple;
+}
+
+#cabecalho h1 {
+    color: #fff;
+}
+
+#produtos {
+    padding: 24px 0;
+}
+
+#contato {
+    padding: 24px 0;
+}
+
+footer {
+    padding: 12px 0;
+    background-color: purple;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+
+    .container {
+        max-width: 90%;
+    }
+    
+    .col-4 {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+    .col-4 {
+        width: 50%;
+        margin-bottom: 16px;
+    }
+
+    
+}
+
+
+
+
